@@ -1,0 +1,342 @@
+# HELP hpilo_power_supply_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_power_supply_status gauge
+hpilo_power_supply_status{capacity="500W",firmware_version="1.03",hot_plug_capable="True",id="1",location="BayNumber: 2",max_output_watts_10s_interval="79",model="865408-B21",power_supply_status="Ok",spare_part_number="866729-001"} 0.0
+hpilo_power_supply_status{capacity="500W",firmware_version="1.03",hot_plug_capable="True",id="0",location="BayNumber: 1",max_output_watts_10s_interval="81",model="865408-B21",power_supply_status="Ok",spare_part_number="866729-001"} 0.0
+# HELP hpilo_jittercount Current processor Jitter Count.
+# TYPE hpilo_jittercount gauge
+hpilo_jittercount 1307.0
+# HELP hpilo_temperatures_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_temperatures_status gauge
+hpilo_temperatures_status 0.0
+# HELP hpilo_power_supplies_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_power_supplies_status gauge
+hpilo_power_supplies_status 0.0
+# HELP hpilo_fan_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_fan_status gauge
+hpilo_fan_status{cool_location="System",hot_pluggable="True",id="6",name="Fan 7"} 0.0
+hpilo_fan_status{cool_location="System",hot_pluggable="True",id="2",name="Fan 3"} 0.0
+hpilo_fan_status{cool_location="System",hot_pluggable="True",id="3",name="Fan 4"} 0.0
+hpilo_fan_status{cool_location="System",hot_pluggable="True",id="5",name="Fan 6"} 0.0
+hpilo_fan_status{cool_location="System",hot_pluggable="True",id="4",name="Fan 5"} 0.0
+hpilo_fan_status{cool_location="System",hot_pluggable="True",id="1",name="Fan 2"} 0.0
+hpilo_fan_status{cool_location="System",hot_pluggable="True",id="0",name="Fan 1"} 0.0
+# HELP hpilo_avgcpu1freq Current CPU1 average frequency in MHz.
+# TYPE hpilo_avgcpu1freq gauge
+hpilo_avgcpu1freq 82.0
+# HELP hpilo_cpuutil Current System CPU utilization in percentage.
+# TYPE hpilo_cpuutil gauge
+hpilo_cpuutil 12.0
+# HELP hpilo_storages_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_storages_status gauge
+hpilo_storages_status 0.0
+# HELP hpilo_temperature_reading_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_temperature_reading_status gauge
+hpilo_temperature_reading_status{caution="115",critical="120",id="18",location="SystemBoard",name="19-VR P1 Mem 2",temperature="27"} 0.0
+hpilo_temperature_reading_status{caution="90",critical="95",id="32",location="SystemBoard",name="33-PCI 2 Zone",temperature="32"} 0.0
+hpilo_temperature_reading_status{caution="70",critical="None",id="2",location="CPU",name="03-CPU 2",temperature="40"} 0.0
+hpilo_temperature_reading_status{caution="None",critical="None",id="39",location="PowerSupply",name="41-P/S 1",temperature="40"} 0.0
+hpilo_temperature_reading_status{caution="60",critical="None",id="13",location="SystemBoard",name="14-Stor Batt 1",temperature="25"} 0.0
+hpilo_temperature_reading_status{caution="100",critical="None",id="21",location="SystemBoard",name="22-Chipset",temperature="29"} 0.0
+hpilo_temperature_reading_status{caution="60",critical="None",id="14",location="Intake",name="15-Front Ambient",temperature="23"} 0.0
+hpilo_temperature_reading_status{caution="100",critical="None",id="27",location="SystemBoard",name="28-LOM Card",temperature="42"} 0.0
+hpilo_temperature_reading_status{caution="None",critical="None",id="37",location="PowerSupply",name="39-P/S 1 Inlet",temperature="29"} 0.0
+hpilo_temperature_reading_status{caution="None",critical="None",id="40",location="PowerSupply",name="42-P/S 2",temperature="40"} 0.0
+hpilo_temperature_reading_status{caution="115",critical="120",id="19",location="SystemBoard",name="20-VR P2 Mem 1",temperature="28"} 0.0
+hpilo_temperature_reading_status{caution="75",critical="80",id="36",location="SystemBoard",name="38-Battery Zone",temperature="33"} 0.0
+hpilo_temperature_reading_status{caution="75",critical="80",id="42",location="PowerSupply",name="44-P/S 2 Zone",temperature="36"} 0.0
+hpilo_temperature_reading_status{caution="100",critical="None",id="26",location="SystemBoard",name="27-LOM",temperature="43"} 0.0
+hpilo_temperature_reading_status{caution="90",critical="95",id="28",location="SystemBoard",name="29-I/O Zone",temperature="28"} 0.0
+hpilo_temperature_reading_status{caution="90",critical="None",id="9",location="SystemBoard",name="10-P2 DIMM 7-12",temperature="30"} 0.0
+hpilo_temperature_reading_status{caution="70",critical="None",id="1",location="CPU",name="02-CPU 1",temperature="40"} 0.0
+hpilo_temperature_reading_status{caution="90",critical="95",id="30",location="SystemBoard",name="31-PCI 1 Zone",temperature="34"} 0.0
+hpilo_temperature_reading_status{caution="115",critical="120",id="15",location="SystemBoard",name="16-VR P1",temperature="31"} 0.0
+hpilo_temperature_reading_status{caution="60",critical="None",id="11",location="SystemBoard",name="12-HD Max",temperature="35"} 0.0
+hpilo_temperature_reading_status{caution="115",critical="120",id="17",location="SystemBoard",name="18-VR P1 Mem 1",temperature="27"} 0.0
+hpilo_temperature_reading_status{caution="85",critical="90",id="25",location="SystemBoard",name="26-HD Cntlr Zone",temperature="27"} 0.0
+hpilo_temperature_reading_status{caution="110",critical="115",id="22",location="SystemBoard",name="23-BMC",temperature="66"} 0.0
+hpilo_temperature_reading_status{caution="90",critical="None",id="5",location="SystemBoard",name="06-P1 DIMM 7-12",temperature="30"} 0.0
+hpilo_temperature_reading_status{caution="42",critical="47",id="0",location="Intake",name="01-Inlet Ambient",temperature="20"} 0.0
+hpilo_temperature_reading_status{caution="None",critical="None",id="38",location="PowerSupply",name="40-P/S 2 Inlet",temperature="33"} 0.0
+hpilo_temperature_reading_status{caution="90",critical="95",id="23",location="SystemBoard",name="24-BMC Zone",temperature="37"} 0.0
+hpilo_temperature_reading_status{caution="100",critical="None",id="41",location="PowerSupply",name="43-E-Fuse",temperature="27"} 0.0
+hpilo_temperature_reading_status{caution="100",critical="None",id="24",location="SystemBoard",name="25-HD Controller",temperature="51"} 0.0
+hpilo_temperature_reading_status{caution="115",critical="120",id="20",location="SystemBoard",name="21-VR P2 Mem 2",temperature="33"} 0.0
+hpilo_temperature_reading_status{caution="115",critical="120",id="16",location="SystemBoard",name="17-VR P2",temperature="33"} 0.0
+# HELP hpilo_network_adapter_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_network_adapter_status gauge
+hpilo_network_adapter_status{firmware_version="20.14.54",id="3",name="HP Ethernet 1Gb 4-port 331FLR Adapter",part_number="789897-001"} 1.0
+hpilo_network_adapter_status{firmware_version="20.14.54",id="2",name="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",part_number=""} 1.0
+hpilo_network_adapter_status{firmware_version="10.4.3",id="1",name="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",part_number="790361-001"} 0.0
+# HELP hpilo_networks_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_networks_status gauge
+hpilo_networks_status 1.0
+# HELP hpilo_network_port_bad_receives A count of frames that were received by the adapter but which had an error
+# TYPE hpilo_network_port_bad_receives gauge
+hpilo_network_port_bad_receives{full_duplex="True",id_adapter="1",ipv4_addresses="['42.118.242.130']",link_status="LinkUp",mac_address="48:df:37:89:c9:58",name="bond0",name_adapter="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",port_number="2",speed_mbps="10000",team="bond0"} 0.0
+hpilo_network_port_bad_receives{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bf",name="eno8",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="4",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_receives{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bd",name="eno6",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="2",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_receives{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:ab",name="eno4",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="4",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_receives{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:a8",name="eno1",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="1",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_receives{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:aa",name="eno3",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="3",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_receives{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:be",name="eno7",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="3",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_receives{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bc",name="eno5",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="1",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_receives{full_duplex="True",id_adapter="1",ipv4_addresses="['42.118.242.130']",link_status="LinkUp",mac_address="48:df:37:89:c9:50",name="bond0",name_adapter="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",port_number="1",speed_mbps="10000",team="bond0"} 0.0
+hpilo_network_port_bad_receives{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:a9",name="eno2",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="2",speed_mbps="0",team=""} 0.0
+# HELP hpilo_network_port_bad_transmits A count of frames that were not transmitted by the adapter because of an error
+# TYPE hpilo_network_port_bad_transmits gauge
+hpilo_network_port_bad_transmits{full_duplex="True",id_adapter="1",ipv4_addresses="['42.118.242.130']",link_status="LinkUp",mac_address="48:df:37:89:c9:58",name="bond0",name_adapter="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",port_number="2",speed_mbps="10000",team="bond0"} 0.0
+hpilo_network_port_bad_transmits{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bf",name="eno8",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="4",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_transmits{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bd",name="eno6",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="2",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_transmits{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:ab",name="eno4",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="4",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_transmits{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:a8",name="eno1",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="1",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_transmits{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:aa",name="eno3",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="3",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_transmits{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:be",name="eno7",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="3",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_transmits{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bc",name="eno5",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="1",speed_mbps="0",team=""} 0.0
+hpilo_network_port_bad_transmits{full_duplex="True",id_adapter="1",ipv4_addresses="['42.118.242.130']",link_status="LinkUp",mac_address="48:df:37:89:c9:50",name="bond0",name_adapter="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",port_number="1",speed_mbps="10000",team="bond0"} 0.0
+hpilo_network_port_bad_transmits{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:a9",name="eno2",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="2",speed_mbps="0",team=""} 0.0
+# HELP hpilo_fan_speed The current speed of the fan
+# TYPE hpilo_fan_speed gauge
+hpilo_fan_speed{cool_location="System",hot_pluggable="True",id="6",name="Fan 7"} 32.0
+hpilo_fan_speed{cool_location="System",hot_pluggable="True",id="2",name="Fan 3"} 32.0
+hpilo_fan_speed{cool_location="System",hot_pluggable="True",id="3",name="Fan 4"} 32.0
+hpilo_fan_speed{cool_location="System",hot_pluggable="True",id="5",name="Fan 6"} 32.0
+hpilo_fan_speed{cool_location="System",hot_pluggable="True",id="4",name="Fan 5"} 32.0
+hpilo_fan_speed{cool_location="System",hot_pluggable="True",id="1",name="Fan 2"} 32.0
+hpilo_fan_speed{cool_location="System",hot_pluggable="True",id="0",name="Fan 1"} 32.0
+# HELP hpilo_network_port_good_receives A count of frames successfully received by the physical adapter
+# TYPE hpilo_network_port_good_receives gauge
+hpilo_network_port_good_receives{full_duplex="True",id_adapter="1",ipv4_addresses="['42.118.242.130']",link_status="LinkUp",mac_address="48:df:37:89:c9:58",name="bond0",name_adapter="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",port_number="2",speed_mbps="10000",team="bond0"} -768896483.0
+hpilo_network_port_good_receives{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bf",name="eno8",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="4",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_receives{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bd",name="eno6",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="2",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_receives{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:ab",name="eno4",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="4",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_receives{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:a8",name="eno1",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="1",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_receives{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:aa",name="eno3",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="3",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_receives{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:be",name="eno7",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="3",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_receives{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bc",name="eno5",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="1",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_receives{full_duplex="True",id_adapter="1",ipv4_addresses="['42.118.242.130']",link_status="LinkUp",mac_address="48:df:37:89:c9:50",name="bond0",name_adapter="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",port_number="1",speed_mbps="10000",team="bond0"} -1592695628.0
+hpilo_network_port_good_receives{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:a9",name="eno2",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="2",speed_mbps="0",team=""} 0.0
+# HELP hpilo_cpuicutil Current System CPU Interconnect utilization in percentage.
+# TYPE hpilo_cpuicutil gauge
+hpilo_cpuicutil 0.0
+# HELP hpilo_memorybusutil Current System memory bus utilization in percentage.
+# TYPE hpilo_memorybusutil gauge
+hpilo_memorybusutil 5.0
+# HELP hpilo_processors_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_processors_status gauge
+hpilo_processors_status 0.0
+# HELP hpilo_cpu0power Current power consumed by the system CPU0 in Watts.
+# TYPE hpilo_cpu0power gauge
+hpilo_cpu0power 45.0
+# HELP hpilo_iobusutil Current System I/O bus utilization in percentage.
+# TYPE hpilo_iobusutil gauge
+hpilo_iobusutil 0.0
+# HELP hpilo_fan_redundancy_status {0: Redundant, 2: FailedRedundant, NonRedundant, Unknown}
+# TYPE hpilo_fan_redundancy_status gauge
+hpilo_fan_redundancy_status 0.0
+# HELP hpilo_cpu1power Current power consumed by the system CPU1 in Watts.
+# TYPE hpilo_cpu1power gauge
+hpilo_cpu1power 30.0
+# HELP hpilo_memories_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_memories_status gauge
+hpilo_memories_status 0.0
+# HELP hpilo_fans_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_fans_status gauge
+hpilo_fans_status 0.0
+# HELP hpilo_array_controller_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_array_controller_status gauge
+hpilo_array_controller_status{backup_power_source_status="Present",controller_board="OK",current_operating_mode="Mixed",firmware_version="1.98",id="0",internal_port_count="2",location="PCISlot: Slot 0",model="HPE Smart Array P408i-a SR Gen10",part_number="836260-001",read_cache_percent="10",unconfigured_drives="0"} 0.0
+# HELP hpilo_logical_drive_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_logical_drive_status gauge
+hpilo_logical_drive_status{acceleration_method="ControllerCache",capacity="558.88 GiB",id="1",id_array="0",interface_type="SAS",logical_drive_status_reasons="['Ok']",logical_drive_type="Data",media_type="HDD",physical_drive_id="['0', '1']",raid="1"} 0.0
+hpilo_logical_drive_status{acceleration_method="IOBypass",capacity="447.1 GiB",id="2",id_array="0",interface_type="SATA",logical_drive_status_reasons="['Ok']",logical_drive_type="Data",media_type="SSD",physical_drive_id="['2', '3']",raid="1"} 0.0
+# HELP hpilo_physical_drive_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_physical_drive_status gauge
+hpilo_physical_drive_status{capacity="480 GB",carrier_authentication_status="OK",disk_drive_status_reasons="['None']",disk_drive_use="Data",firmware_version="HPG0",id="2",id_array="0",interface_speed_mbps="6000",interface_type="SATA",location="ControllerPort:Box:Bay: 1I:1:3",media_type="SSD",model="MK000480GWSSC",rotational_speed_rpm=""} 0.0
+hpilo_physical_drive_status{capacity="600 GB",carrier_authentication_status="OK",disk_drive_status_reasons="['None']",disk_drive_use="Data",firmware_version="HPD1",id="0",id_array="0",interface_speed_mbps="12000",interface_type="SAS",location="ControllerPort:Box:Bay: 1I:1:1",media_type="HDD",model="EG000600JWJNH",rotational_speed_rpm="10000"} 0.0
+hpilo_physical_drive_status{capacity="600 GB",carrier_authentication_status="OK",disk_drive_status_reasons="['None']",disk_drive_use="Data",firmware_version="HPD1",id="1",id_array="0",interface_speed_mbps="12000",interface_type="SAS",location="ControllerPort:Box:Bay: 1I:1:2",media_type="HDD",model="EG000600JWJNH",rotational_speed_rpm="10000"} 0.0
+hpilo_physical_drive_status{capacity="480 GB",carrier_authentication_status="OK",disk_drive_status_reasons="['None']",disk_drive_use="Data",firmware_version="HPG0",id="3",id_array="0",interface_speed_mbps="6000",interface_type="SATA",location="ControllerPort:Box:Bay: 1I:1:4",media_type="SSD",model="MK000480GWSSC",rotational_speed_rpm=""} 0.0
+# HELP hpilo_agentless_management_service_status {0: Ready, 2: Unavailable}
+# TYPE hpilo_agentless_management_service_status gauge
+hpilo_agentless_management_service_status 0.0
+# HELP hpilo_system_health {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_system_health gauge
+hpilo_system_health{bios_backup="U32 v2.04 (04/18/2019)",bios_version="U32 v2.04 (04/18/2019)",intelligent_provisioning_version="3.30.213",os_description="Linux openio-sds1 3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019 x86_64",os_name="CentOS Linux 7",pca_part_number="847479-002",post_state="FinishedPost",power_state="On",serial_number="SGH924TT5Q",server_model="HPE ProLiant DL360 Gen10",sku="867959-B21"} 0.0
+# HELP hpilo_physical_drive_metrics Metrics of physical drive
+# TYPE hpilo_physical_drive_metrics gauge
+hpilo_physical_drive_metrics{current_temperature="28",id="0",maximum_recommended="40",power_on_hours="None",ssd_endurance="None",uncorrected_read_errors="0",uncorrected_write_errors="0"} 0.0
+hpilo_physical_drive_metrics{current_temperature="15",id="2",maximum_recommended="24",power_on_hours="9170",ssd_endurance="1",uncorrected_read_errors="0",uncorrected_write_errors="0"} 0.0
+hpilo_physical_drive_metrics{current_temperature="30",id="1",maximum_recommended="42",power_on_hours="None",ssd_endurance="None",uncorrected_read_errors="0",uncorrected_write_errors="0"} 0.0
+hpilo_physical_drive_metrics{current_temperature="17",id="3",maximum_recommended="25",power_on_hours="9170",ssd_endurance="1",uncorrected_read_errors="0",uncorrected_write_errors="0"} 0.0
+# HELP hpilo_physical_drive_power_on_hours The number of lifetime hours that the drive has been powered on. The value is null if the disk power on hours cannot be determined or is not supported.
+# TYPE hpilo_physical_drive_power_on_hours gauge
+hpilo_physical_drive_power_on_hours{capacity="480 GB",id="2",id_array="0",interface_speed_mbps="6000",interface_type="SATA",location="ControllerPort:Box:Bay: 1I:1:3",media_type="SSD",model="MK000480GWSSC"} 9170.0
+hpilo_physical_drive_power_on_hours{capacity="480 GB",id="3",id_array="0",interface_speed_mbps="6000",interface_type="SATA",location="ControllerPort:Box:Bay: 1I:1:4",media_type="SSD",model="MK000480GWSSC"} 9170.0
+# HELP hpilo_temperature_reading The current reading of the temperature sensor in Celsius
+# TYPE hpilo_temperature_reading gauge
+hpilo_temperature_reading{caution="110",critical="115",id="22",location="SystemBoard",name="23-BMC"} 66.0
+hpilo_temperature_reading{caution="None",critical="None",id="38",location="PowerSupply",name="40-P/S 2 Inlet"} 33.0
+hpilo_temperature_reading{caution="90",critical="95",id="23",location="SystemBoard",name="24-BMC Zone"} 37.0
+hpilo_temperature_reading{caution="85",critical="90",id="25",location="SystemBoard",name="26-HD Cntlr Zone"} 27.0
+hpilo_temperature_reading{caution="None",critical="None",id="39",location="PowerSupply",name="41-P/S 1"} 40.0
+hpilo_temperature_reading{caution="100",critical="None",id="27",location="SystemBoard",name="28-LOM Card"} 42.0
+hpilo_temperature_reading{caution="90",critical="None",id="9",location="SystemBoard",name="10-P2 DIMM 7-12"} 30.0
+hpilo_temperature_reading{caution="60",critical="None",id="11",location="SystemBoard",name="12-HD Max"} 35.0
+hpilo_temperature_reading{caution="100",critical="None",id="21",location="SystemBoard",name="22-Chipset"} 29.0
+hpilo_temperature_reading{caution="115",critical="120",id="20",location="SystemBoard",name="21-VR P2 Mem 2"} 33.0
+hpilo_temperature_reading{caution="60",critical="None",id="13",location="SystemBoard",name="14-Stor Batt 1"} 25.0
+hpilo_temperature_reading{caution="115",critical="120",id="15",location="SystemBoard",name="16-VR P1"} 31.0
+hpilo_temperature_reading{caution="None",critical="None",id="37",location="PowerSupply",name="39-P/S 1 Inlet"} 29.0
+hpilo_temperature_reading{caution="115",critical="120",id="18",location="SystemBoard",name="19-VR P1 Mem 2"} 27.0
+hpilo_temperature_reading{caution="115",critical="120",id="19",location="SystemBoard",name="20-VR P2 Mem 1"} 28.0
+hpilo_temperature_reading{caution="90",critical="95",id="32",location="SystemBoard",name="33-PCI 2 Zone"} 32.0
+hpilo_temperature_reading{caution="100",critical="None",id="24",location="SystemBoard",name="25-HD Controller"} 51.0
+hpilo_temperature_reading{caution="75",critical="80",id="42",location="PowerSupply",name="44-P/S 2 Zone"} 36.0
+hpilo_temperature_reading{caution="100",critical="None",id="26",location="SystemBoard",name="27-LOM"} 43.0
+hpilo_temperature_reading{caution="90",critical="95",id="30",location="SystemBoard",name="31-PCI 1 Zone"} 34.0
+hpilo_temperature_reading{caution="70",critical="None",id="1",location="CPU",name="02-CPU 1"} 40.0
+hpilo_temperature_reading{caution="75",critical="80",id="36",location="SystemBoard",name="38-Battery Zone"} 33.0
+hpilo_temperature_reading{caution="90",critical="None",id="5",location="SystemBoard",name="06-P1 DIMM 7-12"} 30.0
+hpilo_temperature_reading{caution="115",critical="120",id="16",location="SystemBoard",name="17-VR P2"} 33.0
+hpilo_temperature_reading{caution="70",critical="None",id="2",location="CPU",name="03-CPU 2"} 40.0
+hpilo_temperature_reading{caution="90",critical="95",id="28",location="SystemBoard",name="29-I/O Zone"} 28.0
+hpilo_temperature_reading{caution="100",critical="None",id="41",location="PowerSupply",name="43-E-Fuse"} 27.0
+hpilo_temperature_reading{caution="60",critical="None",id="14",location="Intake",name="15-Front Ambient"} 23.0
+hpilo_temperature_reading{caution="42",critical="47",id="0",location="Intake",name="01-Inlet Ambient"} 20.0
+hpilo_temperature_reading{caution="115",critical="120",id="17",location="SystemBoard",name="18-VR P1 Mem 1"} 27.0
+hpilo_temperature_reading{caution="None",critical="None",id="40",location="PowerSupply",name="42-P/S 2"} 40.0
+# HELP hpilo_bios_or_hardware_health_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_bios_or_hardware_health_status gauge
+hpilo_bios_or_hardware_health_status 0.0
+# HELP hpilo_avgcpu0freq Current CPU0 average frequency in MHz.
+# TYPE hpilo_avgcpu0freq gauge
+hpilo_avgcpu0freq 496.0
+# HELP hpilo_physical_drive_uncorrected_read_errors The number of read errors that have occurred on a drive that could not be recovered, If an increase in this counter is seen, run diagnostics on the drive
+# TYPE hpilo_physical_drive_uncorrected_read_errors gauge
+hpilo_physical_drive_uncorrected_read_errors{capacity="480 GB",id="2",id_array="0",interface_speed_mbps="6000",interface_type="SATA",location="ControllerPort:Box:Bay: 1I:1:3",media_type="SSD",model="MK000480GWSSC"} 0.0
+hpilo_physical_drive_uncorrected_read_errors{capacity="480 GB",id="3",id_array="0",interface_speed_mbps="6000",interface_type="SATA",location="ControllerPort:Box:Bay: 1I:1:4",media_type="SSD",model="MK000480GWSSC"} 0.0
+hpilo_physical_drive_uncorrected_read_errors{capacity="600 GB",id="0",id_array="0",interface_speed_mbps="12000",interface_type="SAS",location="ControllerPort:Box:Bay: 1I:1:1",media_type="HDD",model="EG000600JWJNH"} 0.0
+hpilo_physical_drive_uncorrected_read_errors{capacity="600 GB",id="1",id_array="0",interface_speed_mbps="12000",interface_type="SAS",location="ControllerPort:Box:Bay: 1I:1:2",media_type="HDD",model="EG000600JWJNH"} 0.0
+# HELP hpilo_ilo_port_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_ilo_port_status gauge
+hpilo_ilo_port_status{address="192.168.2.130",address_origin="Static",full_duplex="True",gateway="0.0.0.0",interface_enabled="True",interface_type="Dedicated",speed_mbps="1000",subnet_mask="255.255.255.0"} 0.0
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 2.61087232e+08
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 2.418688e+07
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.59642709081e+09
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 0.41000000000000003
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 9.0
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1024.0
+# HELP hpilo_physical_drive_uncorrected_write_errors The number of write errors that have occurred on a drive that could not be recovered, If an increase in this counter is seen, run diagnostics on the drive
+# TYPE hpilo_physical_drive_uncorrected_write_errors gauge
+hpilo_physical_drive_uncorrected_write_errors{capacity="480 GB",id="2",id_array="0",interface_speed_mbps="6000",interface_type="SATA",location="ControllerPort:Box:Bay: 1I:1:3",media_type="SSD",model="MK000480GWSSC"} 0.0
+hpilo_physical_drive_uncorrected_write_errors{capacity="480 GB",id="3",id_array="0",interface_speed_mbps="6000",interface_type="SATA",location="ControllerPort:Box:Bay: 1I:1:4",media_type="SSD",model="MK000480GWSSC"} 0.0
+hpilo_physical_drive_uncorrected_write_errors{capacity="600 GB",id="0",id_array="0",interface_speed_mbps="12000",interface_type="SAS",location="ControllerPort:Box:Bay: 1I:1:1",media_type="HDD",model="EG000600JWJNH"} 0.0
+hpilo_physical_drive_uncorrected_write_errors{capacity="600 GB",id="1",id_array="0",interface_speed_mbps="12000",interface_type="SAS",location="ControllerPort:Box:Bay: 1I:1:2",media_type="HDD",model="EG000600JWJNH"} 0.0
+# HELP hpilo_storage_enclosure_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_storage_enclosure_status gauge
+hpilo_storage_enclosure_status{drive_bays_supported="4",firmware_version="",id="0",id_array="0",location_identifier="Controller:Box: 1I:1",model=""} 0.0
+hpilo_storage_enclosure_status{drive_bays_supported="4",firmware_version="",id="1",id_array="0",location_identifier="Controller:Box: 2I:0",model=""} 0.0
+# HELP hpilo_network_port_good_transmits A count of frames successfully transmitted by the physical adapter
+# TYPE hpilo_network_port_good_transmits gauge
+hpilo_network_port_good_transmits{full_duplex="True",id_adapter="1",ipv4_addresses="['42.118.242.130']",link_status="LinkUp",mac_address="48:df:37:89:c9:58",name="bond0",name_adapter="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",port_number="2",speed_mbps="10000",team="bond0"} 1.902815606e+09
+hpilo_network_port_good_transmits{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bf",name="eno8",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="4",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_transmits{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bd",name="eno6",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="2",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_transmits{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:ab",name="eno4",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="4",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_transmits{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:a8",name="eno1",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="1",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_transmits{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:aa",name="eno3",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="3",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_transmits{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:be",name="eno7",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="3",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_transmits{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bc",name="eno5",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="1",speed_mbps="0",team=""} 0.0
+hpilo_network_port_good_transmits{full_duplex="True",id_adapter="1",ipv4_addresses="['42.118.242.130']",link_status="LinkUp",mac_address="48:df:37:89:c9:50",name="bond0",name_adapter="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",port_number="1",speed_mbps="10000",team="bond0"} 3.2341625e+07
+hpilo_network_port_good_transmits{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:a9",name="eno2",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="2",speed_mbps="0",team=""} 0.0
+# HELP hpilo_memory_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_memory_status gauge
+hpilo_memory_status{capacity="",channel="4",device_type="",location="PROC 2 DIMM 5",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="3",device_type="",location="PROC 1 DIMM 12",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="1",device_type="",location="PROC 2 DIMM 7",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="2",device_type="",location="PROC 1 DIMM 10",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="3",device_type="",location="PROC 2 DIMM 12",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="6",device_type="",location="PROC 1 DIMM 2",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="5",device_type="",location="PROC 2 DIMM 3",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="3",device_type="",location="PROC 1 DIMM 11",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="5",device_type="",location="PROC 2 DIMM 4",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="3",device_type="",location="PROC 2 DIMM 11",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="32 GB",channel="1",device_type="DDR4",location="PROC 2 DIMM 8",module_status="GoodInUse",operating_speed_mhz="2400",part_number="840758-091"} 0.0
+hpilo_memory_status{capacity="",channel="5",device_type="",location="PROC 1 DIMM 4",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="2",device_type="",location="PROC 1 DIMM 9",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="5",device_type="",location="PROC 1 DIMM 3",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="6",device_type="",location="PROC 2 DIMM 2",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="4",device_type="",location="PROC 2 DIMM 6",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="2",device_type="",location="PROC 2 DIMM 10",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="6",device_type="",location="PROC 1 DIMM 1",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="4",device_type="",location="PROC 1 DIMM 5",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="6",device_type="",location="PROC 2 DIMM 1",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="2",device_type="",location="PROC 2 DIMM 9",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="4",device_type="",location="PROC 1 DIMM 6",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="",channel="1",device_type="",location="PROC 1 DIMM 7",module_status="NotPresent",operating_speed_mhz="",part_number=""} 0.0
+hpilo_memory_status{capacity="32 GB",channel="1",device_type="DDR4",location="PROC 1 DIMM 8",module_status="GoodInUse",operating_speed_mhz="2400",part_number="840758-091"} 0.0
+# HELP hpilo_processor_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_processor_status gauge
+hpilo_processor_status{caches="['L1-Cache: 0.75 MB', 'L2-Cache: 12.0 MB', 'L3-Cache: 16.5 MB']",cores_enabled="12",cores_threads="12/24",id="2",last_boot_speed="2100 MHz",max_speed_supported="4000 MHz",model="Intel(R) Xeon(R) Silver 4116 CPU @ 2.10GHz"} 0.0
+hpilo_processor_status{caches="['L1-Cache: 0.75 MB', 'L2-Cache: 12.0 MB', 'L3-Cache: 16.5 MB']",cores_enabled="12",cores_threads="12/24",id="1",last_boot_speed="2100 MHz",max_speed_supported="4000 MHz",model="Intel(R) Xeon(R) Silver 4116 CPU @ 2.10GHz"} 0.0
+# HELP hpilo_physical_drive_ssd_endurance This is the percentage of the drive that has been worn out and can no longer be used. When this values reaches 100%, the drive has 0% usage remaining and is completely worn out. The value is null if percent endurance used cannot be determined or is not supported.
+# TYPE hpilo_physical_drive_ssd_endurance gauge
+hpilo_physical_drive_ssd_endurance{capacity="480 GB",id="2",id_array="0",interface_speed_mbps="6000",interface_type="SATA",location="ControllerPort:Box:Bay: 1I:1:3",media_type="SSD",model="MK000480GWSSC"} 1.0
+hpilo_physical_drive_ssd_endurance{capacity="480 GB",id="3",id_array="0",interface_speed_mbps="6000",interface_type="SATA",location="ControllerPort:Box:Bay: 1I:1:4",media_type="SSD",model="MK000480GWSSC"} 1.0
+# HELP python_info Python platform information
+# TYPE python_info gauge
+python_info{implementation="CPython",major="2",minor="7",patchlevel="5",version="2.7.5"} 1.0
+# HELP hpilo_smart_storage_battery_charge_level_percent
+# TYPE hpilo_smart_storage_battery_charge_level_percent gauge
+hpilo_smart_storage_battery_charge_level_percent{firmware_version="0.70",id="1",model="875241-B21",spare_part_number="878643-001"} 99.0
+# HELP request_processing_seconds Time spent processing request
+# TYPE request_processing_seconds summary
+request_processing_seconds_count 1.0
+request_processing_seconds_sum 3.766796112060547
+# TYPE request_processing_seconds_created gauge
+request_processing_seconds_created 1.592185807549972e+09
+# HELP hpilo_power_consumed_by_all The actual power being consumed by the server in Watts
+# TYPE hpilo_power_consumed_by_all gauge
+hpilo_power_consumed_by_all{capacity="1000",id="0"} 150.0
+# HELP hpilo_smart_storage_batteries_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_smart_storage_batteries_status gauge
+hpilo_smart_storage_batteries_status 0.0
+# HELP hpilo_power_control
+# TYPE hpilo_power_control gauge
+hpilo_power_control{average_consumed="150",capacity="1000",id="0",interval_in_min="20",max_consumed="166",min_consumed="146"} 0.0
+# HELP hpilo_smart_storage_battery_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_smart_storage_battery_status gauge
+hpilo_smart_storage_battery_status{charge_level_percent="99",firmware_version="0.70",id="1",maximum_capacity_watts="96",model="875241-B21",remaining_charge_time_seconds="44",spare_part_number="878643-001"} 0.0
+# HELP hpilo_power_consumed_by_each The latest observed average power being drawn by the power supply (Watts)
+# TYPE hpilo_power_consumed_by_each gauge
+hpilo_power_consumed_by_each{capacity="500W",id="0",location="BayNumber: 1",model="865408-B21"} 77.0
+hpilo_power_consumed_by_each{capacity="500W",id="1",location="BayNumber: 2",model="865408-B21"} 73.0
+# HELP hpilo_power_line_input_voltage The line input voltage at which the Power Supply is operating
+# TYPE hpilo_power_line_input_voltage gauge
+hpilo_power_line_input_voltage{capacity="500W",id="0",location="BayNumber: 1",model="865408-B21"} 228.0
+hpilo_power_line_input_voltage{capacity="500W",id="1",location="BayNumber: 2",model="865408-B21"} 228.0
+# HELP hpilo_network_port_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_network_port_status gauge
+hpilo_network_port_status{full_duplex="True",id_adapter="1",ipv4_addresses="['42.118.242.130']",link_status="LinkUp",mac_address="48:df:37:89:c9:58",name="bond0",name_adapter="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",port_number="2",speed_mbps="10000",team="bond0"} 0.0
+hpilo_network_port_status{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bf",name="eno8",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="4",speed_mbps="0",team=""} 1.0
+hpilo_network_port_status{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bd",name="eno6",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="2",speed_mbps="0",team=""} 1.0
+hpilo_network_port_status{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:ab",name="eno4",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="4",speed_mbps="0",team=""} 1.0
+hpilo_network_port_status{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:a8",name="eno1",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="1",speed_mbps="0",team=""} 1.0
+hpilo_network_port_status{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:aa",name="eno3",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="3",speed_mbps="0",team=""} 1.0
+hpilo_network_port_status{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:be",name="eno7",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="3",speed_mbps="0",team=""} 1.0
+hpilo_network_port_status{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bc",name="eno5",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="1",speed_mbps="0",team=""} 1.0
+hpilo_network_port_status{full_duplex="True",id_adapter="1",ipv4_addresses="['42.118.242.130']",link_status="LinkUp",mac_address="48:df:37:89:c9:50",name="bond0",name_adapter="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",port_number="1",speed_mbps="10000",team="bond0"} 0.0
+hpilo_network_port_status{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:a9",name="eno2",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="2",speed_mbps="0",team=""} 1.0
+# HELP hpilo_power_supply_redundancy_status {0: Redundant, 2: FailedRedundant, NonRedundant, Unknown}
+# TYPE hpilo_power_supply_redundancy_status gauge
+hpilo_power_supply_redundancy_status 0.0

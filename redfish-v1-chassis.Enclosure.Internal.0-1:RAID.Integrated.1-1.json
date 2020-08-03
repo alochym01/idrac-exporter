@@ -1,0 +1,117 @@
+{
+    "@Redfish.Settings": {
+        "@odata.context": "/redfish/v1/$metadata#Settings.Settings",
+        "@odata.type": "#Settings.v1_2_1.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.Integrated.1-1/Settings"
+        },
+        "SupportedApplyTimes": [
+            "Immediate",
+            "OnReset",
+            "AtMaintenanceWindowStart",
+            "InMaintenanceWindowOnReset"
+        ]
+    },
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.Integrated.1-1",
+    "@odata.type": "#Chassis.v1_8_0.Chassis",
+    "Actions": {},
+    "AssetTag": "",
+    "ChassisType": "Enclosure",
+    "Description": "BP14G+EXP 0:1",
+    "Id": "Enclosure.Internal.0-1:RAID.Integrated.1-1",
+    "Links": {
+        "ContainedBy": {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+        },
+        "Contains": [],
+        "Contains@odata.count": 0,
+        "Drives": [
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.2:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.3:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.4:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.5:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.6:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.7:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.8:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.9:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.10:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1/Drives/Disk.Bay.11:Enclosure.Internal.0-1:RAID.Integrated.1-1"
+            }
+        ],
+        "Drives@odata.count": 12,
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+            }
+        ],
+        "ManagedBy@odata.count": 1,
+        "PCIeDevices": [],
+        "PCIeDevices@odata.count": 0,
+        "Storage": [
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.Integrated.1-1"
+            }
+        ],
+        "Storage@odata.count": 1
+    },
+    "Manufacturer": null,
+    "Model": "BP14G+EXP 0:1",
+    "Name": "BP14G+EXP 0:1",
+    "Oem": {
+        "Dell": {
+            "DellEnclosure": {
+                "@odata.context": "/redfish/v1/$metadata#DellEnclosure.DellEnclosure",
+                "@odata.id": "/redfish/v1/Dell/Chassis/System.Embedded.1/DellEnclosure/Enclosure.Internal.0-1:RAID.Integrated.1-1",
+                "@odata.type": "#DellEnclosure.v1_1_0.DellEnclosure",
+                "AssetName": null,
+                "Connector": 0,
+                "LastSystemInventoryTime": "2020-07-25T22:57:02+00:00",
+                "LastUpdateTime": "2020-07-25T22:57:02+00:00",
+                "Links": {
+                    "DellEnclosureEMMCollection": [],
+                    "DellEnclosureEMMCollection@odata.count": 0
+                },
+                "ServiceTag": null,
+                "SlotCount": 12,
+                "TempProbeCount": 0,
+                "Version": "2.46",
+                "WiredOrder": 1
+            }
+        }
+    },
+    "PartNumber": null,
+    "PowerState": "On",
+    "SKU": "",
+    "SerialNumber": null,
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}
