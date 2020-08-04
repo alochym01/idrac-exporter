@@ -1,7 +1,27 @@
 # HELP hpilo_power_supply_status {0: OK, 1: Warning, 2: Critical}
 # TYPE hpilo_power_supply_status gauge
-hpilo_power_supply_status{capacity="500W",firmware_version="1.03",hot_plug_capable="True",id="1",location="BayNumber: 2",max_output_watts_10s_interval="79",model="865408-B21",power_supply_status="Ok",spare_part_number="866729-001"} 0.0
-hpilo_power_supply_status{capacity="500W",firmware_version="1.03",hot_plug_capable="True",id="0",location="BayNumber: 1",max_output_watts_10s_interval="81",model="865408-B21",power_supply_status="Ok",spare_part_number="866729-001"} 0.0
+hpilo_power_supply_status{
+    capacity="500W",
+    firmware_version="1.03",
+    hot_plug_capable="True",
+    id="1",
+    location="BayNumber: 2",
+    max_output_watts_10s_interval="79",
+    model="865408-B21",
+    power_supply_status="Ok",
+    spare_part_number="866729-001"
+} 0.0
+hpilo_power_supply_status{
+    capacity="500W",
+    firmware_version="1.03",
+    hot_plug_capable="True",
+    id="0",
+    location="BayNumber: 1",
+    max_output_watts_10s_interval="81",
+    model="865408-B21",
+    power_supply_status="Ok",
+    spare_part_number="866729-001"
+} 0.0
 # HELP hpilo_jittercount Current processor Jitter Count.
 # TYPE hpilo_jittercount gauge
 hpilo_jittercount 1307.0
@@ -158,10 +178,8 @@ hpilo_physical_drive_status{capacity="480 GB",carrier_authentication_status="OK"
 # HELP hpilo_agentless_management_service_status {0: Ready, 2: Unavailable}
 # TYPE hpilo_agentless_management_service_status gauge
 hpilo_agentless_management_service_status 0.0
-# HELP hpilo_system_health {0: OK, 1: Warning, 2: Critical}
-# TYPE hpilo_system_health gauge
-hpilo_system_health{bios_backup="U32 v2.04 (04/18/2019)",bios_version="U32 v2.04 (04/18/2019)",intelligent_provisioning_version="3.30.213",os_description="Linux openio-sds1 3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019 x86_64",os_name="CentOS Linux 7",pca_part_number="847479-002",post_state="FinishedPost",power_state="On",serial_number="SGH924TT5Q",server_model="HPE ProLiant DL360 Gen10",sku="867959-B21"} 0.0
-# HELP hpilo_physical_drive_metrics Metrics of physical drive
+
+ HELP hpilo_physical_drive_metrics Metrics of physical drive
 # TYPE hpilo_physical_drive_metrics gauge
 hpilo_physical_drive_metrics{current_temperature="28",id="0",maximum_recommended="40",power_on_hours="None",ssd_endurance="None",uncorrected_read_errors="0",uncorrected_write_errors="0"} 0.0
 hpilo_physical_drive_metrics{current_temperature="15",id="2",maximum_recommended="24",power_on_hours="9170",ssd_endurance="1",uncorrected_read_errors="0",uncorrected_write_errors="0"} 0.0
@@ -305,22 +323,16 @@ request_processing_seconds_count 1.0
 request_processing_seconds_sum 3.766796112060547
 # TYPE request_processing_seconds_created gauge
 request_processing_seconds_created 1.592185807549972e+09
-# HELP hpilo_power_consumed_by_all The actual power being consumed by the server in Watts
-# TYPE hpilo_power_consumed_by_all gauge
-hpilo_power_consumed_by_all{capacity="1000",id="0"} 150.0
+
 # HELP hpilo_smart_storage_batteries_status {0: OK, 1: Warning, 2: Critical}
 # TYPE hpilo_smart_storage_batteries_status gauge
 hpilo_smart_storage_batteries_status 0.0
-# HELP hpilo_power_control
-# TYPE hpilo_power_control gauge
-hpilo_power_control{average_consumed="150",capacity="1000",id="0",interval_in_min="20",max_consumed="166",min_consumed="146"} 0.0
+
+
 # HELP hpilo_smart_storage_battery_status {0: OK, 1: Warning, 2: Critical}
 # TYPE hpilo_smart_storage_battery_status gauge
 hpilo_smart_storage_battery_status{charge_level_percent="99",firmware_version="0.70",id="1",maximum_capacity_watts="96",model="875241-B21",remaining_charge_time_seconds="44",spare_part_number="878643-001"} 0.0
-# HELP hpilo_power_consumed_by_each The latest observed average power being drawn by the power supply (Watts)
-# TYPE hpilo_power_consumed_by_each gauge
-hpilo_power_consumed_by_each{capacity="500W",id="0",location="BayNumber: 1",model="865408-B21"} 77.0
-hpilo_power_consumed_by_each{capacity="500W",id="1",location="BayNumber: 2",model="865408-B21"} 73.0
+
 # HELP hpilo_power_line_input_voltage The line input voltage at which the Power Supply is operating
 # TYPE hpilo_power_line_input_voltage gauge
 hpilo_power_line_input_voltage{capacity="500W",id="0",location="BayNumber: 1",model="865408-B21"} 228.0
@@ -337,6 +349,44 @@ hpilo_network_port_status{full_duplex="True",id_adapter="3",ipv4_addresses="[]",
 hpilo_network_port_status{full_duplex="True",id_adapter="3",ipv4_addresses="[]",link_status="LinkDown",mac_address="98:f2:b3:0e:81:bc",name="eno5",name_adapter="HP Ethernet 1Gb 4-port 331FLR Adapter",port_number="1",speed_mbps="0",team=""} 1.0
 hpilo_network_port_status{full_duplex="True",id_adapter="1",ipv4_addresses="['42.118.242.130']",link_status="LinkUp",mac_address="48:df:37:89:c9:50",name="bond0",name_adapter="HPE Ethernet 10Gb 2-port 562SFP+ Adapter",port_number="1",speed_mbps="10000",team="bond0"} 0.0
 hpilo_network_port_status{full_duplex="True",id_adapter="2",ipv4_addresses="[]",link_status="LinkDown",mac_address="80:30:e0:3a:3c:a9",name="eno2",name_adapter="HPE Ethernet 1Gb 4-port 331i Adapter - NIC",port_number="2",speed_mbps="0",team=""} 1.0
+
+
+
+# HELP hpilo_power_consumed_by_each The latest observed average power being drawn by the power supply (Watts)
+# TYPE hpilo_power_consumed_by_each gauge
+hpilo_power_consumed_by_each{
+    capacity="500W",
+    id="0",
+    location="BayNumber: 1",
+    model="865408-B21"} 77.0
+hpilo_power_consumed_by_each{capacity="500W",id="1",location="BayNumber: 2",model="865408-B21"} 73.0
+
 # HELP hpilo_power_supply_redundancy_status {0: Redundant, 2: FailedRedundant, NonRedundant, Unknown}
 # TYPE hpilo_power_supply_redundancy_status gauge
 hpilo_power_supply_redundancy_status 0.0
+# HELP hpilo_power_consumed_by_all The actual power being consumed by the server in Watts
+# TYPE hpilo_power_consumed_by_all gauge
+hpilo_power_consumed_by_all{capacity="1000",id="0"} 150.0
+# HELP hpilo_power_control
+# TYPE hpilo_power_control gauge
+hpilo_power_control{
+    average_consumed="150",
+    capacity="1000",
+    id="0",
+    interval_in_min="20",
+    max_consumed="166",
+    min_consumed="146"
+} 0.0
+# HELP hpilo_system_health {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_system_health gauge
+hpilo_system_health{
+    bios_backup="U32 v2.04 (04/18/2019)",
+    bios_version="U32 v2.04 (04/18/2019)",
+    intelligent_provisioning_version="3.30.213",
+    os_description="Linux openio-sds1 3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019 x86_64",
+    os_name="CentOS Linux 7",pca_part_number="847479-002",
+    post_state="FinishedPost",
+    power_state="On",
+    serial_number="SGH924TT5Q",
+    server_model="HPE ProLiant DL360 Gen10",
+    sku="867959-B21"} 0.0

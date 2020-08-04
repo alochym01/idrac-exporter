@@ -23,6 +23,7 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/alochym01/idrac-exporter/chassis"
 	"github.com/alochym01/idrac-exporter/system"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
@@ -68,6 +69,13 @@ func metrichandler(w http.ResponseWriter, rsp *http.Request) {
 		health := system.Health(sys[0])
 		prometheus.Register(health)
 
+		// Register Chassis
+		for _, c := range chass {
+			powers := chassis.Powers(c)
+			for _, power := range powers {
+				prometheus.Register(power)
+			}
+		}
 		log.Out = os.Stdout
 
 		// Set log level
