@@ -1,27 +1,4 @@
-# HELP hpilo_power_supply_status {0: OK, 1: Warning, 2: Critical}
-# TYPE hpilo_power_supply_status gauge
-hpilo_power_supply_status{
-    capacity="500W",
-    firmware_version="1.03",
-    hot_plug_capable="True",
-    id="1",
-    location="BayNumber: 2",
-    max_output_watts_10s_interval="79",
-    model="865408-B21",
-    power_supply_status="Ok",
-    spare_part_number="866729-001"
-} 0.0
-hpilo_power_supply_status{
-    capacity="500W",
-    firmware_version="1.03",
-    hot_plug_capable="True",
-    id="0",
-    location="BayNumber: 1",
-    max_output_watts_10s_interval="81",
-    model="865408-B21",
-    power_supply_status="Ok",
-    spare_part_number="866729-001"
-} 0.0
+
 # HELP hpilo_jittercount Current processor Jitter Count.
 # TYPE hpilo_jittercount gauge
 hpilo_jittercount 1307.0
@@ -390,3 +367,28 @@ hpilo_system_health{
     serial_number="SGH924TT5Q",
     server_model="HPE ProLiant DL360 Gen10",
     sku="867959-B21"} 0.0
+
+# HELP hpilo_power_supply_status {0: OK, 1: Warning, 2: Critical}
+# TYPE hpilo_power_supply_status gauge
+hpilo_power_supply_status{
+    capacity="500W",
+    firmware_version="1.03",
+    hot_plug_capable="True",
+    id="1",
+    location="BayNumber: 2",
+    max_output_watts_10s_interval="79",
+    model="865408-B21",
+    power_supply_status="Ok",
+    spare_part_number="866729-001"
+} 0.0
+hpilo_power_supply_status{
+    capacity="500W",
+    firmware_version="1.03",
+    hot_plug_capable="True",
+    id="0",
+    location="BayNumber: 1",
+    max_output_watts_10s_interval="81",
+    model="865408-B21",
+    power_supply_status="Ok",
+    spare_part_number="866729-001"
+} 0.0
